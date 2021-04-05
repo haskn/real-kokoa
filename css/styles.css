@@ -23,7 +23,6 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
-
 body{
   color: #2e363e;
   font-family: 'Open Sans',
@@ -35,7 +34,4 @@ body{
   height: 150vh;
   padding-top: 0px var(--horizontal-space);
 
-}
-.vh-body {
-  height: 150vh;
 }

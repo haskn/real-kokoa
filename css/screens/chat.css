@@ -118,15 +118,18 @@ width: 100%;
   border: var(--main-border);
   border-radius: 20px;
 padding-left: 10px;
-
 }
 
 
 .reply .reply__column:first-child{
-  width: 10%;
+  width: 5%;
+margin-left: -15px;
+  display: flex;
+  justify-content: center;
+  
 }
 .reply .reply__column:last-child {
-  width: 90%;
+  width: 95%;
 }
 .reply .reply__column:last-child input {
   width: 100%;
@@ -213,20 +216,20 @@ animation: fadeIn 0.8s linear   ;
   .reply:focus-within button{
     opacity: 0;
   }
-.reply:focus-within {
-  transform: translateY(80px);
-}
+.reply:focus-within{
 
+}
   .reply:focus-within .reply__column>input{
-    will-change:auto;
+transform: translateX(-8%);
+
     width: 93vw;
-    transform: translateX(-11.5%) translateY(-80px);
+    transition: all 0.2s ease-in-out;
   }
 
  .reply__column>input, 
  .reply__column:last-child>i,
    .reply__column:last-child>button
    {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 

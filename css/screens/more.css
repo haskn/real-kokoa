@@ -1,5 +1,6 @@
 .user-component{
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .fa-edit 
@@ -18,31 +19,20 @@ bottom: -2.5px;
 right: -30px;
 color: tomato;}
 
-
-
 .more-screen .icon-row {
-  margin-top: 35px;
+  width: 100%;
 
-  display: flex;
+  margin-top: 10px;
+
     flex-wrap: wrap;
-  justify-content:space-around;
+ 
 }
 
 .more-screen .icon-row .icon-row__icon{
 width: 100px;
 height: 100px;
   margin: 20px 20px;
-  display: flex;
- justify-content: center ;
- align-items: center;
-
 }
-.more-suggestions{
-  margin-top: 50px;
-
-
-}
-
 .more-suggestions .more-suggestions__title {
   margin: 30px 0px;
   font-weight: bold;
@@ -50,21 +40,18 @@ height: 100px;
 
 .more-suggestions .icon-row__icons{
   display: flex;
-  padding: 0 20px;
   margin-top: 35px;
-
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content:left;
   }
 
 
 .more-suggestions .icon-row__icon{
 width: 100px;
 height: 100px;
-margin: 20px 20px;
+
 display: flex;
-justify-content: center;
-align-items: center;
+
 }
 
 .more-suggestions .icon-row__icon i{
